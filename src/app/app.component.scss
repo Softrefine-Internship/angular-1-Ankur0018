@@ -1,0 +1,87 @@
+
+
+.card-container {
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.card {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 25rem;
+    max-height: 25rem;
+}
+
+.profile {
+    margin: 0.5rem 0;
+    font-size: 1.5rem;
+}
+
+.profile__img img {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+}
+
+.edit-btn, .update-btn {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+
+.edit-btn:hover, .update-btn:hover {
+    background-color: #e68900;
+}
+
+.edit-form {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.edit-form input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.edit_details {
+    display: flex;
+    align-items: center;
+    gap: 1rem;  
+    width: 100%;
+}
+
+.edit_details label {
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 8rem;  
+}
+
+.edit_details input {
+    flex: 1;  
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.error-message {
+    color: red;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
